@@ -1,6 +1,7 @@
 * {
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 a {
@@ -36,6 +37,8 @@ a {
 .main_content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: brown;
     min-height: 100vh;
 }
@@ -46,6 +49,3 @@ a {
     padding: 2%;
 }
 
-.link_box {
-    background-color: bisque;
-}

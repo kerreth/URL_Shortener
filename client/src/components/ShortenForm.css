@@ -1,0 +1,28 @@
+.link_box {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.urlForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.urlForm button {
+    margin-top: 20px;
+    min-height: 30px;
+    max-width: 80px;
+}
+
+.urlForm input {
+    min-width: 400px;
+    min-height: 30px;
+}
