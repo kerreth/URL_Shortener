@@ -1,6 +1,9 @@
 //import { useState } from 'react'
 import './App.css';
-import ShortenForm from './components//ShortenForm'
+import { Routes, Route } from "react-router";
+import HomePage from './pages/HomePage';
+import ResultPage from './pages/ResultPage';
+
 
 function App() {
 
@@ -19,7 +22,10 @@ function App() {
         </header>
 
         <main className="main_content">
-          <ShortenForm />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/results" element={<ResultPage />} />
+          </Routes>
           <section className="overview">
 
           </section>
